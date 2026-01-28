@@ -1,11 +1,15 @@
 import { useState, useEffect } from 'react'
-import { RouterProvider } from 'react-router-dom'
-import router from './router'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
+
+// Pages
+import Home from './pages/Home'
+import ProjectDetail from './pages/ProjectDetail'
+import NotFound from './pages/NotFound'
 
 function App() {
+  // Gestion du thème
   const [theme, setTheme] = useState(() => {
-    const saved = localStorage.getItem('theme')
-    return saved || 'dark'
+    return localStorage.getItem('theme') || 'dark'
   })
 
   useEffect(() => {
@@ -14,12 +18,28 @@ function App() {
   }, [theme])
 
   const toggleTheme = () => {
-    setTheme(prev => prev === 'dark' ? 'light' : 'dark')
+    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'))
   }
 
-  return (
-    <RouterProvider router={router} context={{ theme, toggleTheme }} />
-  )
+  // Définition des routes
+  const router = createHashRouter([
+    {
+      path: '/',
+      element: <Home />,
+      errorElement: <NotFound />
+    },
+    {
+      path: '/project/:id',
+      element: <ProjectDetail />
+    },
+    {
+      path: '*',
+      element: <NotFound />
+    }
+  ])
+
+  // Fournir le router et le contexte pour le thème
+  return <RouterProvider router={router} context={{ theme, toggleTheme }} />
 }
 
 export default App
