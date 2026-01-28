@@ -16,25 +16,6 @@ npm install
 npm run dev
 ```
 
-## 📁 Structure du projet
-
-```
-portfolio/
-├── public/
-│   └── placeholder.jpg
-├── src/
-│   ├── components/       # Composants React
-│   ├── pages/           # Pages (Home, ProjectDetail, NotFound)
-│   ├── styles/          # Styles globaux SCSS
-│   ├── data/            # Données JSON
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── router.jsx
-├── index.html
-├── vite.config.js
-└── package.json
-```
-
 ## 🎨 Personnalisation
 
 ### Données du portfolio
@@ -71,7 +52,3 @@ npm run deploy
 - Vite 6
 - SASS
 - gh-pages (déploiement)
-
-## 📄 Licence
-
-MIT
