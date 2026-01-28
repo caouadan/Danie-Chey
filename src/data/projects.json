@@ -1,0 +1,211 @@
+{
+  "projects": [
+    {
+    "id": "ohmyfood",
+    "title": "OhMyFood",
+    "category": "developpement",
+    "thumbnail": "./img/projects/ohmyfood/ohmyfood-home.png",
+    "heroImage": "./img/projects/ohmyfood/ohmyfood-hero.png",
+    "description": "Intégration d’un site de restauration gastronomique en HTML et SCSS à partir de maquettes. Mise en place d’animations CSS avancées, d’un design responsive et d’une navigation fluide pour améliorer l’expérience utilisateur.",
+    "technologies": ["HTML5", "SCSS", "Animations CSS", "Responsive Design"],
+    "year": "2025",
+    "link": "https://caouadan.github.io/Ohmyfood/",
+    "slides": [
+      {
+        "image": "./img/projects/ohmyfood/ohmyfood-home.png",
+        "subtitle": "Page d'accueil",
+        "text": "Présentation des restaurants avec animations progressives et hiérarchie visuelle claire."
+      },
+      {
+        "image": "./img/projects/ohmyfood/ohmyfood-menu.png",
+        "subtitle": "Pages menu",
+        "text": "Menus interactifs avec animations CSS sur les plats et parcours utilisateur optimisé."
+      },
+      {
+        "image": "./img/projects/ohmyfood/ohmyfood-mobile.png",
+        "subtitle": "Version mobile",
+        "text": "Design responsive pensé mobile-first pour une navigation fluide sur smartphone."
+      }
+    ]
+  },
+  {
+    "id": "kasa",
+    "title": "Kasa",
+    "category": "developpement",
+    "thumbnail": "./img/projects/kasa/kasa-home.png",
+    "heroImage": "./img/projects/kasa/kasa-hero.png",
+    "description": "Développement d’une application web de location immobilière avec React. Mise en place d’une architecture en composants, gestion du routage avec React Router et affichage dynamique des données.",
+    "technologies": ["React", "React Router", "JavaScript", "CSS"],
+    "year": "2025",
+    "link": "https://caouadan.github.io/kasa/",
+    "slides": [
+      {
+        "image": "./img/projects/kasa/kasa-home.png",
+        "subtitle": "Page d'accueil",
+        "text": "Liste dynamique des logements avec cartes interactives et navigation claire."
+      },
+      {
+        "image": "./img/projects/kasa/kasa-detail.png",
+        "subtitle": "Fiche logement",
+        "text": "Pages dynamiques avec carrousel d’images, informations détaillées et composants réutilisables."
+      },
+      {
+        "image": "./img/projects/kasa/kasa-error.png",
+        "subtitle": "Gestion des erreurs",
+        "text": "Mise en place d’une page 404 et d’une gestion des routes inexistantes."
+      }
+    ]
+  },
+  {
+    "id": "nina-carducci",
+    "title": "Nina Carducci",
+    "category": "developpement",
+    "thumbnail": "./img/projects/nina/nina-performance.png",
+    "heroImage": "./img/projects/nina/nina-hero.png",
+    "description": "Optimisation SEO et accessibilité du portfolio d’une photographe professionnelle. Amélioration des performances, de la structure sémantique et de l’accessibilité afin de garantir une meilleure expérience utilisateur et un meilleur référencement.",
+    "technologies": ["SEO", "Accessibilité", "HTML5", "Lighthouse"],
+    "year": "2025",
+    "link": "https://caouadan.github.io/ninacarducci/",
+    "slides": [
+      {
+        "image": "./img/projects/nina/nina-performance.png",
+        "subtitle": "Optimisation des performances",
+        "text": "Amélioration des scores Lighthouse (performance, SEO, accessibilité et bonnes pratiques)."
+      },
+      {
+        "image": "./img/projects/nina/nina-accessibilite.png",
+        "subtitle": "Accessibilité",
+        "text": "Corrections des contrastes, des balises sémantiques et navigation clavier."
+      },
+      {
+        "image": "./img/projects/nina/nina-seo.png",
+        "subtitle": "SEO",
+        "text": "Optimisation du référencement naturel avec une structure HTML propre et des contenus pertinents."
+      }
+    ]
+  },
+    {
+      "id": "infans",
+      "title": "Infans - E-learning",
+      "category": "graphisme",
+      "thumbnail": "./img/projects/infans/infans-motion.png",
+      "heroImage": "./img/projects/infans/infans-hero.png",
+      "description": "Conception et design des formations chez Infans. Création de chartes graphiques, de visuels, et de contenus animés/interactifs sur Articulate Storyline pour des professionnels de la petite enfance.",
+      "technologies": ["Articulate Storyline", "Illustrator", "After Effects"],
+      "year": "2023 - 2025",
+      "link": "https://learn-in.fr/_SiteInfans/_ExtraitsFormations/MIPPER/Extrait_EnergiesRenouvelables/story.html?username=guest",
+      "slides": [
+        {
+          "image": "./img/projects/infans/infans-id.png",
+          "subtitle": "Charte graphique",
+          "text": "Créer et maintenir une charte graphique cohérente pour les formations Infans."
+        },
+        {
+          "image": "./img/projects/infans/infans-learning.png",
+          "subtitle": "Modules interactifs",
+          "text": "Conception de contenus animés et interactifs intégrés sur Articulate Storyline et LMS."
+        },
+        {
+          "image": "./img/projects/infans/infans-motion.png",
+          "subtitle": "Motion design",
+          "text": "Création de motion design pour les réseaux sociaux et le site internet d'Infans."
+        }
+      ]
+    },
+    {
+      "id": "kampoy",
+      "title": "Kampoy - E-commerce",
+      "category": "graphisme",
+      "thumbnail": "./img/projects/kampoy/kampoy-print.png",
+      "heroImage": "./img/projects/kampoy/kampoy-hero.png",
+      "description": "Webdesign de Kampoy. Mockup, création et intégration du contenu graphique de la plateforme avec animations et illustrations vectorielles.",
+      "technologies": ["Illustrator", "Figma", "After Effects"],
+      "year": "2021 - 2023",
+      "link": "https://kampoy.com/home",
+      "slides": [
+        {
+          "image": "./img/projects/kampoy/kampoy-prototype.png",
+          "subtitle": "Webdesign",
+          "text": "Création des maquettes et du design d'un side project à la plateforme Kampoy."
+        },
+        {
+          "image": "./img/projects/kampoy/kampoy-illustrations.png",
+          "subtitle": "Illustrations",
+          "text": "Réalisation d'illustrations vectorielles et d'animations pour enrichir l'expérience visuelle de la plateforme."
+        },
+        {
+          "image": "./img/projects/kampoy/kampoy-print.png",
+          "subtitle": "Print",
+          "text": "Réalisations d'éléments print : cartes de visite, flyers et affiches pour la promotion de la plateforme."
+        }
+      ]
+    },
+    {
+      "id": "freelance",
+      "title": "Projets Freelance",
+      "category": "graphisme",
+      "thumbnail": "./img/projects/freelance/meuble.png",
+      "heroImage": "./img/projects/freelance/freelance-hero.png",
+      "description": "Réalisation de projets digitaux et print pour divers clients : identités visuelles, affiches, packaging et supports de communication.",
+      "technologies": ["Photoshop", "Illustrator", "InDesign"],
+      "year": "Depuis 2021",
+      "slides": [
+        {
+          "image": "./img/projects/freelance/locart.png",
+          "subtitle": "Locart",
+          "text": "Identité visuelle et design de Locart. Création du contenu graphique avec des illustrations traditionnelles."
+        },
+        {
+          "image": "./img/projects/freelance/cubyn.png",
+          "subtitle": "Cubyn",
+          "text": "habillage du stand de la société pour un salon professionnel à Monaco."
+        },
+        {
+          "image": "./img/projects/freelance/meuble.png",
+          "subtitle": "Société d'ameublement",
+          "text": "Retouches photos : intégration de canapés dans des environnements variés pour le catalogue produit."
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "developpement": [
+      "HTML5 / CSS3 / SCSS",
+      "Animations CSS",
+      "JavaScript",
+      "React",
+      "Git / GitHub",
+      "Responsive Design",
+      "accessibilité",
+      "SEO et performance",
+      "testing et débogage"
+    ],
+    "graphisme": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Adobe After Effects",
+      "Adobe Premiere Pro",
+      "Articulate Storyline",
+      "Figma",
+      "Canva"
+    ]
+  },
+  "parcours": [
+    {
+      "year": "2025",
+      "title": "Intégratrice Web",
+      "school": "OpenClassrooms"
+    },
+    {
+      "year": "2020",
+      "title": "Formation Graphisme",
+      "school": "Cours privés"
+    },
+    {
+      "year": "2018",
+      "title": "Master de Lettres Modernes",
+      "school": "Université Lille 3"
+    }
+  ]
+}

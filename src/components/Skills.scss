@@ -1,0 +1,86 @@
+@import '../styles/variables';
+
+.skills {
+  background-color: var(--color-bg-secondary);
+  &__accordions {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__accordion {
+    border: 2px solid var(--color-text);
+    overflow: hidden;
+    transition: background-color $transition-fast;
+
+    &:hover {
+      background-color: var(--color-bg-secondary);
+    }
+
+    &--open {
+      .skills__accordion-icon {
+        transform: rotate(180deg);
+      }
+
+      .skills__accordion-content {
+        max-height: 400px;
+        padding: $spacing-lg;
+      }
+    }
+  }
+
+  &__accordion-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $spacing-lg;
+    font-family: $font-secondary;
+    font-size: $font-size-lg;
+    font-weight: $font-medium;
+    background: none;
+    border: none;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: background-color $transition-fast;
+  }
+
+  &__accordion-title {
+    text-align: left;
+  }
+
+  &__accordion-icon {
+    font-size: $font-size-sm;
+    transition: transform $transition-base;
+  }
+
+  &__accordion-content {
+    max-height: 0;
+    padding: 0 $spacing-lg;
+    overflow: hidden;
+    transition: max-height $transition-base, padding $transition-base;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  &__item {
+    font-family: $font-secondary;
+    font-size: $font-size-base;
+    color: var(--color-text-muted);
+    padding-left: $spacing-md;
+    position: relative;
+
+    &::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--color-text);
+    }
+  }
+}

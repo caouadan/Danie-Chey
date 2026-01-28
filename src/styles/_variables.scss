@@ -1,0 +1,85 @@
+// ================================
+// COULEURS
+// ================================
+$dark-gray: #1C1C1C;
+$white: #FFFFFF;
+$light-gray: #F5F5F5;
+$medium-gray-light: #9C4474;
+$medium-gray-dark: #E67272;
+$accent-gray: #2A2A2A;
+
+// ================================
+// TYPOGRAPHIES
+// ================================
+$font-primary: 'Fredoka', sans-serif;
+$font-secondary: 'Nunito', sans-serif;
+
+// Font sizes
+$font-size-xs: 0.75rem;    // 12px
+$font-size-sm: 0.875rem;   // 14px
+$font-size-base: 1rem;     // 16px
+$font-size-lg: 1.125rem;   // 18px
+$font-size-xl: 1.25rem;    // 20px
+$font-size-2xl: 1.5rem;    // 24px
+$font-size-3xl: 2rem;      // 32px
+$font-size-4xl: 2.5rem;    // 40px
+$font-size-5xl: 3rem;      // 48px
+$font-size-6xl: 4rem;      // 64px
+
+// Font weights
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+
+// ================================
+// ESPACEMENTS
+// ================================
+$spacing-xs: 0.25rem;   // 4px
+$spacing-sm: 0.5rem;    // 8px
+$spacing-md: 1rem;      // 16px
+$spacing-lg: 1.5rem;    // 24px
+$spacing-xl: 2rem;      // 32px
+$spacing-2xl: 3rem;     // 48px
+$spacing-3xl: 4rem;     // 64px
+$spacing-4xl: 6rem;     // 96px
+
+// ================================
+// BORDER RADIUS
+// ================================
+$radius-none: 0;
+$radius-sm: 0.25rem;
+$radius-md: 0.5rem;
+$radius-lg: 1rem;
+$radius-xl: 1.5rem;
+$radius-full: 9999px;
+
+// ================================
+// BREAKPOINTS
+// ================================
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+
+// ================================
+// TRANSITIONS
+// ================================
+$transition-fast: 0.15s ease;
+$transition-base: 0.3s ease;
+$transition-slow: 0.5s ease;
+
+// ================================
+// SHADOWS
+// ================================
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+// ================================
+// Z-INDEX
+// ================================
+$z-dropdown: 100;
+$z-header: 1000;
+$z-modal: 2000;
