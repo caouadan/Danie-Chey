@@ -169,28 +169,30 @@
     }
   ],
   "skills": {
-    "developpement": [
-      "HTML5 / CSS3 / SCSS",
-      "Animations CSS",
-      "JavaScript",
-      "React",
-      "Git / GitHub",
-      "Responsive Design",
-      "accessibilité",
-      "SEO et performance",
-      "testing et débogage"
-    ],
-    "graphisme": [
-      "Adobe Photoshop",
-      "Adobe Illustrator",
-      "Adobe InDesign",
-      "Adobe After Effects",
-      "Adobe Premiere Pro",
-      "Articulate Storyline",
-      "Figma",
-      "Canva"
-    ]
-  },
+  "developpement": [
+    "HTML5 / CSS3 / SCSS",
+    "Responsive Design / Mobile-First",
+    "JavaScript (ES6+)",
+    "React / React Router / Redux",
+    "Animations CSS",
+    "Accessibilité",
+    "SEO & performance",
+    "Testing & débogage (Jest, tests fonctionnels)",
+    "Appels API REST (Postman, Swagger)",
+    "Git / GitHub"
+  ],
+  "graphisme": [
+    "UI design & prototypage (Figma, design system)",
+    "Motion design (After Effects)",
+    "Montage vidéo (Premiere Pro)",
+    "Illustrations (Illustrator)",
+    "Retouches photos (Photoshop)",
+    "PAO (InDesign)",
+    "E-learning interactifs (Articulate Storyline)",
+    "Contenus pour réseaux sociaux",
+    "Design rapide & déclinaisons (Canva)"
+  ]
+},
   "parcours": [
     {
       "year": "2025",
