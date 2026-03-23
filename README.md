@@ -1,54 +1,34 @@
-# Portfolio - Danie Chey
+# Portfolio de Projets Front-End
 
-Portfolio personnel en React + Vite + SASS avec support GitHub Pages.
+Bienvenue sur mon portfolio de projets front-end.  
+Découvrez ci-dessous mes projets réalisés dans le cadre de ma formation en développement web, tous avec des **démos fonctionnelles**.
 
-## 🚀 Installation
+---
 
-```bash
-# Cloner le projet
-git clone https://github.com/votre-username/portfolio.git
-cd portfolio
+## Mes Projets
 
-# Installer les dépendances
-npm install
+### OhMyFood 
+**Technologies :** HTML, CSS, SASS, Animations CSS  
+**Description :** Site mobile-first pour une start-up de restauration, intégrant des menus interactifs et des animations CSS.  
+[Voir la démo](https://caouadan.github.io/Ohmyfood-demo/)
 
-# Lancer le serveur de développement
-npm run dev
-```
+---
 
-## 🎨 Personnalisation
+### Kasa
+**Technologies :** React, React Router, SASS  
+**Description :** Application web de location immobilière, avec navigation multipages, composants React réutilisables et données JSON simulant le back-end.  
+[Voir la démo](https://caouadan.github.io/kasa-demo/)
 
-### Données du portfolio
+---
 
-Modifiez le fichier `src/data/projects.json` pour personnaliser :
-- Les projets
-- Les compétences
-- Le parcours académique
+### Portfolio Sophie Bluel
+**Technologies :** JavaScript, HTML, CSS, API  
+**Description :** Page dynamique pour un site portfolio d’architecte, avec récupération des données via API, modale d’upload et gestion des événements utilisateurs.  
+[Voir la démo](https://caouadan.github.io/portfolio-sophie-bluel-demo/)
 
-### Thème
+---
 
-Les couleurs et styles sont définis dans :
-- `src/styles/_variables.scss` - Variables (couleurs, typos, espacements)
-- `src/styles/global.scss` - Styles globaux et thèmes light/dark
-
-## 📦 Déploiement sur GitHub Pages
-
-1. Modifiez `vite.config.js` avec le nom de votre repo :
-```js
-base: '/nom-de-votre-repo/'
-```
-
-2. Déployez :
-```bash
-npm run deploy
-```
-
-3. Activez GitHub Pages dans les paramètres de votre repo (source: branche `gh-pages`).
-
-## 🛠 Technologies
-
-- React 18
-- React Router DOM 6
-- Vite 6
-- SASS
-- gh-pages (déploiement)
+### Nina Carducci
+**Technologies :** HTML, CSS, JavaScript, SEO, Accessibilité  
+**Description :** Optimisation SEO et accessibilité pour un site de photographe, avec audit Lighthouse/Wave et amélioration des performances et du code.  
+[Voir la démo](https://caouadan.github.io/ninacarducci-demo/)
